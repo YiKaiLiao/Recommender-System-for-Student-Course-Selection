@@ -1,0 +1,14 @@
+conclusion: 
+	1. comparison of rmse between ppca, knn course, and knn student
+	--> randomly discard 20% data: knn course < ppca < knn student  (ppca and knn course results are close)
+		(why does knn course outperform knn student??)
+		--> explanation: data isn't gaussian
+			--> merging students' score:
+				gaussian: normalization, non-gaussian: PR ranking&equation
+
+	2. senior year score prediction
+	--> rmse: knn course < ppca < knn student
+
+	3. PCA on students' scores
+	--> k=3 50% explained, k=20 90% explained
+	--> map core courses to each pc axes?

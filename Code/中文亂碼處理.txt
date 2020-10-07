@@ -1,0 +1,1 @@
+讀取CSV中文出現亂碼時: 用fopen(...,'n','utf-8');來讀檔(在read_mixed_csv裡)
